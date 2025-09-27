@@ -170,12 +170,18 @@
 ## 📝 Latest Blog Posts
 
 <div align="center">
-  <a href="https://howieduhzit.best/blog" target="_blank">
-    <img src="https://img.shields.io/badge/-📝%20Read%20My%20Blog-000000?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog" />
-  </a>
+### [Building AI Agents with Eliza Framework](https://howieduhzit.best/blog/ai-agents-eliza)
+*Published: 2024-12-15*
+
+### [3D Workflow Automation with Blender](https://howieduhzit.best/blog/blender-automation)
+*Published: 2024-12-10*
+
+### [Open Source Contributions That Matter](https://howieduhzit.best/blog/open-source-impact)
+*Published: 2024-12-05*
+
 </div>
 
-*Technical insights on enterprise AI systems, industrial 3D pipelines, and production engineering*
+*💡 Sharing insights on 3D modeling, game development, and tech innovations*
 
 ---
 
