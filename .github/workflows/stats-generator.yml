@@ -1,0 +1,76 @@
+name: Generate Repository Statistics
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Generate Stats JSON
+      run: |
+        # Get repository statistics
+        echo "Generating repository statistics..."
+
+        # Get total stars, forks, repos count
+        STARS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .stargazers_count] | add // 0')
+        FORKS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .forks_count] | add // 0')
+        REPOS=$(curl -s "https://api.github.com/users/HowieDuhzit" | jq '.public_repos // 0')
+
+        # Create stats JSON file
+        cat > stats.json << EOF
+        {
+          "total_stars": $STARS,
+          "total_forks": $FORKS,
+          "total_repos": $REPOS,
+          "last_updated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+          "top_languages": ["TypeScript", "Python", "JavaScript", "HTML", "CSS"],
+          "recent_projects": [
+            "Eliza-Installer",
+            "Duhzit-Wit-Tools",
+            "Eliza-Character-Gen",
+            "CoolifyMCP",
+            "Hyperfy-Tools"
+          ]
+        }
+        EOF
+
+        echo "Generated stats.json with:"
+        echo "  Stars: $STARS"
+        echo "  Forks: $FORKS"
+        echo "  Repos: $REPOS"
+
+    - name: Upload Stats
+      uses: actions/upload-artifact@v4
+      with:
+        name: github-stats
+        path: stats.json
+        retention-days: 30
+
+    - name: Commit Stats
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add stats.json
+        if git diff --staged --quiet; then
+          echo "No changes to stats.json"
+        else
+          git commit -m "📊 Update repository statistics"
+          git push
+          echo "Committed updated statistics"
+        fi

@@ -1,0 +1,88 @@
+name: Update Dynamic Badges
+
+on:
+  schedule:
+    # Run every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Get GitHub Stats
+      id: stats
+      run: |
+        # Get total stars across all repos
+        TOTAL_STARS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .stargazers_count] | add // 0')
+
+        # Get total forks
+        TOTAL_FORKS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .forks_count] | add // 0')
+
+        # Get total repos
+        TOTAL_REPOS=$(curl -s "https://api.github.com/users/HowieDuhzit" | jq '.public_repos // 0')
+
+        echo "total_stars=$TOTAL_STARS" >> $GITHUB_OUTPUT
+        echo "total_forks=$TOTAL_FORKS" >> $GITHUB_OUTPUT
+        echo "total_repos=$TOTAL_REPOS" >> $GITHUB_OUTPUT
+
+        echo "Stats: $TOTAL_STARS stars, $TOTAL_FORKS forks, $TOTAL_REPOS repos"
+
+    - name: Generate Dynamic README
+      run: |
+        # Read current README
+        README_CONTENT=$(cat README.md)
+
+        # Update the dynamic badges section
+        NEW_BADGES_SECTION="<div align=\"center\">
+  <p>
+    <img src=\"https://img.shields.io/badge/Total_Stars-${{ steps.stats.outputs.total_stars }}-blue?style=flat&logo=github\" alt=\"Total Stars\" />
+    <img src=\"https://img.shields.io/badge/Public_Repos-${{ steps.stats.outputs.total_repos }}-green?style=flat&logo=github\" alt=\"Public Repos\" />
+    <img src=\"https://img.shields.io/badge/Total_Forks-${{ steps.stats.outputs.total_forks }}-orange?style=flat&logo=github\" alt=\"Total Forks\" />
+  </p>
+</div>"
+
+        # Replace the existing badges section
+        UPDATED_CONTENT=$(echo "$README_CONTENT" | sed -n '1,/<div align="center">/p')
+
+        # Add the new badges section after the visitor counter
+        UPDATED_CONTENT="$UPDATED_CONTENT
+
+$NEW_BADGES_SECTION
+
+<div align=\"center\">"
+
+        # Find and replace from the visitor counter onwards
+        echo "$UPDATED_CONTENT" > README_new.md
+
+        # Get the rest of the file after the visitor counter section
+        tail -n +12 README.md >> README_new.md
+
+        # Replace original README
+        mv README_new.md README.md
+
+        echo "Updated README with dynamic badge values:
+        - Stars: ${{ steps.stats.outputs.total_stars }}
+        - Forks: ${{ steps.stats.outputs.total_forks }}
+        - Repos: ${{ steps.stats.outputs.total_repos }}"
+
+    - name: Commit Changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Update dynamic GitHub statistics badges"
+          git push
+          echo "Committed updated statistics"
+        fi

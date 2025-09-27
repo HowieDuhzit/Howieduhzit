@@ -205,6 +205,15 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate full-stack developer and AI e
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=HowieDuhzit&color=00FF41&style=flat-square" alt="Profile Views" />
+  <p><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHowieDuhzit&count_bg=%2300FF41&title_bg=%23555555&icon=github.svg&icon_color=%23FFFFFF&title=GitHub+Profile+Views&edge_flat=false" alt="GitHub Profile Views Counter" /></p>
+</div>
+
+<div align="center">
+  <p>
+    <img src="https://img.shields.io/badge/Total_Stars-200+-blue?style=flat&logo=github" alt="Total Stars" />
+    <img src="https://img.shields.io/badge/Public_Repos-40+-green?style=flat&logo=github" alt="Public Repos" />
+    <img src="https://img.shields.io/badge/Total_Forks-50+-orange?style=flat&logo=github" alt="Total Forks" />
+  </p>
 </div>
 
 <div align="center">
