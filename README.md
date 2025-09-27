@@ -11,15 +11,12 @@
 
 ## 🚀 About Me
 
-```typescript
-const howie = {
-  name: "Howie Duhzit",
-  passions: ["3D Modeling", "Game Development", "Scripting", "Innovation"],
-  skills: ["Blender", "Unity", "Python", "JavaScript", "Creative Thinking"],
-  location: "Digital Realm 🌐",
-  status: "Always Learning 📚"
-};
-```
+<div align="center">
+  <p><strong>Hey there! 👋 I'm <em>Howie Duhzit</em></strong></p>
+  <p><strong>Passionate about:</strong> 3D Modeling, Game Development, Scripting & Innovation</p>
+  <p><strong>Current skills:</strong> Blender, Unity, Python, JavaScript, Creative Thinking</p>
+  <p><strong>Location:</strong> Digital Realm 🌐 | <strong>Status:</strong> Always Learning 📚</p>
+</div>
 
 Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves turning creative ideas into digital reality. Whether I'm crafting intricate 3D models, diving into game modding adventures, or writing clever scripts to solve problems, I thrive on the intersection of technology and creativity.
 
@@ -55,45 +52,56 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HowieDuhzit&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=HowieDuhzit&theme=radical&hide_border=true" alt="GitHub Streak" width="48%" />
-</div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HowieDuhzit&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="45%" />
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=HowieDuhzit&theme=github-dark" alt="Activity Graph" width="50%" />
+### **🚀 Building Something Amazing**
+*Currently working on exciting projects in 3D modeling, game development, and automation*
+
+### **🔥 Recent Activity Highlights**
+- 🎯 Setting up development environment for game modding projects
+- 🏗️ Learning advanced Blender techniques and workflows
+- 💻 Exploring automation scripts and productivity tools
+- 🌟 Planning open source contributions to the creative coding community
+
+*GitHub stats and detailed metrics will appear here as projects are published! 📈*
+
 </div>
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Upcoming Projects
 
 <div align="center">
 
-### 🎮 **[Game Mod Collection](https://github.com/HowieDuhzit/game-mods)**
+### 🎮 **Game Mod Collection**
 *Custom game modifications and enhancements*
 - Enhanced gameplay mechanics
 - Custom assets and textures
 - Performance optimizations
+- *Repository coming soon!*
 
-### 🏗️ **[3D Model Library](https://github.com/HowieDuhzit/3d-models)**
+### 🏗️ **3D Model Library**
 *Collection of 3D models and assets*
 - High-quality Blender models
 - Game-ready assets
 - Creative Commons licensed
+- *Repository coming soon!*
 
-### 🤖 **[Automation Scripts](https://github.com/HowieDuhzit/automation-scripts)**
+### 🤖 **Automation Scripts**
 *Useful scripts for everyday tasks*
 - Workflow automation
 - Data processing tools
 - System utilities
+- *Repository coming soon!*
 
 </div>
 
-*🔗 [View all my repositories](https://github.com/HowieDuhzit?tab=repositories)*
+<div align="center">
+  <p><strong>🔗 Stay tuned for exciting projects!</strong></p>
+  <p><a href="https://github.com/HowieDuhzit?tab=repositories" target="_blank">View current repositories</a></p>
+</div>
 
 ---
 
@@ -142,17 +150,24 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 
 ---
 
-## 🏆 Achievements & Milestones
+## 🏆 Current Focus & Goals
 
 <div align="center">
 
-### **GitHub Trophies**
-[![trophy](https://github-profile-trophy.vercel.app/?username=HowieDuhzit&theme=radical&no-frame=true&margin-w=15)](https://github.com/HowieDuhzit)
+### **🎯 Development Journey**
+*Building a strong foundation in creative technology and game development*
 
-### **Recent Highlights**
-- 🚀 **100+ GitHub Stars** - Community recognition for open source contributions
-- 🎯 **50+ Projects** - Diverse portfolio spanning multiple domains
-- 🌟 **Continuous Learning** - Always exploring new technologies and techniques
+### **📚 Learning Path**
+- 🔥 **Blender Mastery** - Advanced 3D modeling and animation techniques
+- 🎮 **Game Development** - Unity fundamentals and game modding skills
+- 💻 **Programming Skills** - Python automation and JavaScript web development
+- 🚀 **Open Source** - Contributing to creative coding projects
+
+### **🌟 Next Milestones**
+- Launch first game mod project
+- Publish 3D model collection
+- Create automation tool suite
+- Build portfolio website showcase
 
 </div>
 
@@ -174,15 +189,12 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 
 <div align="center">
 
-```javascript
-const funFacts = [
-  "I can model a donut faster than I can eat one 🍩",
-  "My code has more creativity than my coffee ☕",
-  "I turn coffee into 3D models ☕➜🎨",
-  "Game mods are my love language 🎮❤️",
-  "I dream in polygons and scripts 💭"
-];
-```
+### **Random Facts About Me:**
+- 🍩 I can model a donut faster than I can eat one
+- ☕ My code has more creativity than my coffee
+- 🎨 I turn coffee into 3D models ☕➜🎨
+- 🎮❤️ Game mods are my love language
+- 💭 I dream in polygons and scripts
 
 </div>
 
