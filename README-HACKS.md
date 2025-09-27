@@ -45,6 +45,7 @@ This document explains all the advanced features and automation implemented in t
 ### 🔗 5. Social Media Integration
 **Features:**
 - GitHub Sponsors integration (`.github/FUNDING.yml`)
+- **Solana crypto integration** with wallet address for direct blockchain donations
 - Dynamic Twitter/X integration with recent tweets
 - Multiple funding platforms (Buy Me a Coffee, GitHub Sponsors)
 - Social media badges and links
@@ -56,7 +57,22 @@ This document explains all the advanced features and automation implemented in t
 - Fallback content for reliability
 - External content integration
 
-### 📈 7. Repository Statistics
+### 💰 7. Solana Tip Integration
+**Files:** `solana-tip-integration.md`, `solana-tip-component.jsx`
+
+**What it does:**
+- Web3-native funding system using Solana blockchain
+- Direct crypto donations via wallet addresses
+- React components for easy integration
+- Modern alternative to traditional payment methods
+- Low fees and fast transactions
+
+**Setup:**
+- Add Solana wallet address to `.github/FUNDING.yml`
+- Use provided React component in your projects
+- Supports mainnet, testnet, and devnet
+
+### 📈 8. Repository Statistics
 **Files:** `.github/workflows/stats-generator.yml`
 
 **What it does:**

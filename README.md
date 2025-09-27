@@ -90,6 +90,12 @@
 - ⚙️ Production API orchestration
 - 💼 3+ stars, enterprise tooling
 
+### ⚡ **[Solana Tip Integration](https://github.com/HowieDuhzit/solana-tip-integration)**
+*Web3 Funding & Crypto Tipping System*
+- 🔗 Solana blockchain integration
+- 💰 Crypto donation infrastructure
+- 🚀 Modern Web3 funding solutions
+
 </div>
 
 <div align="center">
@@ -130,16 +136,26 @@
 
 ---
 
-## 💼 Professional Support
+## 💼 Professional Support & Funding
 
 <div align="center">
-  <p><strong>Interested in enterprise AI/3D engineering solutions?</strong></p>
+  <p><strong>Enterprise AI/3D Engineering Solutions</strong></p>
 
   <a href="https://www.buymeacoffee.com/howieduhzit" target="_blank">
     <img src="https://img.shields.io/badge/-Enterprise%20Consultation-1a1a1a?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FF6B35" alt="Professional Consultation" />
   </a>
 
-  <p><em>Connect for production AI systems, industrial 3D pipelines, and technical consulting</em></p>
+  <p><strong>🔗 Multiple Support Options:</strong></p>
+
+  <a href="https://github.com/sponsors/HowieDuhzit" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub%20Sponsors-1a1a1a?style=flat&logo=github&logoColor=FF6B35" alt="GitHub Sponsors" />
+  </a>
+
+  <a href="https://solscan.io/account/8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ" target="_blank">
+    <img src="https://img.shields.io/badge/-Solana%20Wallet-1a1a1a?style=flat&logo=solana&logoColor=9945FF" alt="Solana Wallet" />
+  </a>
+
+  <p><em>💡 Support open source development • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
 </div>
 
 ---
