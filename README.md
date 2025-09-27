@@ -18,12 +18,12 @@
   <p><strong>Location:</strong> Digital Realm 🌐 | <strong>Status:</strong> Always Learning 📚</p>
 </div>
 
-Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves turning creative ideas into digital reality. Whether I'm crafting intricate 3D models, diving into game modding adventures, or writing clever scripts to solve problems, I thrive on the intersection of technology and creativity.
+Hey there! 👋 I'm **Howie Duhzit**, a passionate full-stack developer and AI enthusiast who loves building innovative solutions across multiple domains. Whether I'm developing autonomous AI agents, creating powerful 3D modeling tools, or architecting full-stack web applications, I thrive on solving complex problems with elegant, scalable solutions.
 
-- 🎨 **3D Modeling & Animation** - Bringing imagination to life with Blender and other tools
-- 🎮 **Game Modding** - Enhancing gaming experiences and creating custom content
-- 💻 **Scripting & Automation** - Writing efficient code to streamline workflows
-- 🧠 **Problem Solving** - Tackling complex challenges with innovative solutions
+- 🤖 **AI Agent Development** - Building autonomous agents with the Eliza framework
+- 🏗️ **3D Tool Creation** - Developing Blender addons and 3D modeling utilities
+- 💻 **Full-Stack Development** - Creating web applications and MCP servers
+- 🚀 **Open Source Innovation** - Contributing to cutting-edge projects with real impact
 
 ---
 
@@ -33,19 +33,19 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 
 ### **Languages & Frameworks**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,blender,unity,nodejs" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=typescript,python,javascript,html,css,nodejs,react,blender" alt="Languages" />
 </p>
 
 ### **Tools & Software**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,blender,unity,git,github,docker,linux" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=vscode,blender,git,github,docker,linux,ai" alt="Tools" />
 </p>
 
 ### **Currently Learning**
 <div align="center">
-  <img src="https://img.shields.io/badge/-Advanced%20Blender%20Techniques-FF6B35?style=flat&logo=blender&logoColor=white" alt="Blender" />
-  <img src="https://img.shields.io/badge/-Game%20Development-000000?style=flat&logo=unity&logoColor=white" alt="Unity" />
-  <img src="https://img.shields.io/badge/-AI%20%26%20ML-FF6B35?style=flat&logo=tensorflow&logoColor=white" alt="AI/ML" />
+  <img src="https://img.shields.io/badge/-Advanced%20AI%20Agents-FF6B35?style=flat&logo=openai&logoColor=white" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/-3D%20Pipeline%20Automation-000000?style=flat&logo=blender&logoColor=white" alt="3D Pipeline" />
+  <img src="https://img.shields.io/badge/-MCP%20Protocol-FF6B35?style=flat&logo=github&logoColor=white" alt="MCP Protocol" />
 </div>
 
 </div>
@@ -57,13 +57,13 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 <div align="center">
 
 ### **🚀 Building Something Amazing**
-*Currently working on exciting projects in 3D modeling, game development, and automation*
+*Currently working on AI agents, 3D tools, and full-stack applications*
 
 ### **🔥 Recent Activity Highlights**
-- 🎯 Setting up development environment for game modding projects
-- 🏗️ Learning advanced Blender techniques and workflows
-- 💻 Exploring automation scripts and productivity tools
-- 🌟 Planning open source contributions to the creative coding community
+- 🤖 Building AI agent ecosystem with Eliza framework
+- 🏗️ Developing 3D modeling tools and Blender addons
+- 💻 Creating full-stack web applications and MCP servers
+- 🌟 Contributing to open source projects with 200+ combined stars
 
 *GitHub stats and detailed metrics will appear here as projects are published! 📈*
 
@@ -71,36 +71,39 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 
 ---
 
-## 🌟 Upcoming Projects
+## 🌟 Featured Projects
 
 <div align="center">
 
-### 🎮 **Game Mod Collection**
-*Custom game modifications and enhancements*
-- Enhanced gameplay mechanics
-- Custom assets and textures
-- Performance optimizations
-- *Repository coming soon!*
+### 🤖 **[Eliza-Installer](https://github.com/HowieDuhzit/Eliza-Installer)**
+*Automated Eliza AI Agent Installation Script*
+- ⚡ One-click Eliza setup
+- 🔧 Automated dependency management
+- 📦 66+ stars, actively maintained
 
-### 🏗️ **3D Model Library**
-*Collection of 3D models and assets*
-- High-quality Blender models
-- Game-ready assets
-- Creative Commons licensed
-- *Repository coming soon!*
+### 🎨 **[Duhzit-Wit-Tools](https://github.com/HowieDuhzit/Duhzit-Wit-Tools)**
+*Generate LoRA Data from Blender Renders*
+- 🖼️ AI image generation pipeline
+- 🎛️ Blender integration tools
+- ⭐ 13+ stars, innovative 3D workflow
 
-### 🤖 **Automation Scripts**
-*Useful scripts for everyday tasks*
-- Workflow automation
-- Data processing tools
-- System utilities
-- *Repository coming soon!*
+### 🏗️ **[Eliza-Character-Gen](https://github.com/HowieDuhzit/Eliza-Character-Gen)**
+*Character Generation System for Eliza*
+- 🎭 Dynamic character creation
+- 🤖 AI personality development
+- ⭐ 44+ stars, 23+ forks
+
+### 🔧 **[CoolifyMCP](https://github.com/HowieDuhzit/CoolifyMCP)**
+*MCP Server for Coolify Integration*
+- ☁️ Cloud platform automation
+- 🔗 API integrations
+- ⭐ 3+ stars, cutting-edge tooling
 
 </div>
 
 <div align="center">
-  <p><strong>🔗 Stay tuned for exciting projects!</strong></p>
-  <p><a href="https://github.com/HowieDuhzit?tab=repositories" target="_blank">View current repositories</a></p>
+  <p><strong>🔗 View all 40+ repositories</strong></p>
+  <p><a href="https://github.com/HowieDuhzit?tab=repositories" target="_blank">github.com/HowieDuhzit</a></p>
 </div>
 
 ---
@@ -157,17 +160,17 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 ### **🎯 Development Journey**
 *Building a strong foundation in creative technology and game development*
 
-### **📚 Learning Path**
-- 🔥 **Blender Mastery** - Advanced 3D modeling and animation techniques
-- 🎮 **Game Development** - Unity fundamentals and game modding skills
-- 💻 **Programming Skills** - Python automation and JavaScript web development
-- 🚀 **Open Source** - Contributing to creative coding projects
+### **📚 Expertise Areas**
+- 🤖 **AI Agent Development** - Building autonomous agents with Eliza framework
+- 🏗️ **3D Pipeline Tools** - Blender addons and 3D workflow automation
+- 💻 **Full-Stack Development** - Web apps, MCP servers, and cloud platforms
+- 🚀 **Open Source Leadership** - High-impact contributions with 200+ combined stars
 
 ### **🌟 Next Milestones**
-- Launch first game mod project
-- Publish 3D model collection
-- Create automation tool suite
-- Build portfolio website showcase
+- Scale Eliza ecosystem to 1000+ users
+- Release comprehensive 3D tool suite
+- Launch production MCP server platform
+- Establish AI/3D developer community hub
 
 </div>
 
@@ -190,11 +193,11 @@ Hey there! 👋 I'm **Howie Duhzit**, a passionate tech enthusiast who loves tur
 <div align="center">
 
 ### **Random Facts About Me:**
-- 🍩 I can model a donut faster than I can eat one
-- ☕ My code has more creativity than my coffee
-- 🎨 I turn coffee into 3D models ☕➜🎨
-- 🎮❤️ Game mods are my love language
-- 💭 I dream in polygons and scripts
+- 🤖 I turn AI prompts into autonomous agents
+- 🏗️ I automate 3D workflows that save artists hours
+- ☕ My code runs on caffeine and creativity
+- 🚀 I contribute to projects with 200+ stars
+- 💭 I dream in TypeScript and Python
 
 </div>
 
