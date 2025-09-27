@@ -147,12 +147,32 @@ interface UseTipJarReturn {
 }
 ```
 
+## Recipient Address Configuration
+
+### SNS Domain Support (Recommended)
+You can use your Solana Name Service (SNS) domain as the recipient address:
+
+```javascript
+recieverAddress: "HowieDuhzit.sol"  // User-friendly domain name
+```
+
+SNS domains provide:
+- **Human-readable addresses** instead of long wallet addresses
+- **Identity verification** through domain ownership
+- **Professional branding** for your crypto donations
+
+### Raw Wallet Address (Alternative)
+```javascript
+recieverAddress: "8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ"
+```
+
 ## Network Configuration
 
 ### Mainnet (Production)
 ```javascript
 network: "mainnet-beta"
-recieverAddress: "8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ"
+recieverAddress: "HowieDuhzit.sol"  // SNS domain (recommended) or raw address
+// recieverAddress: "8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ"
 ```
 
 ### Devnet (Development)

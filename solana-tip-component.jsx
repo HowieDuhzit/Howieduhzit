@@ -12,7 +12,7 @@ import { useTipJar } from 'solana-tipjar';
  * @param {string} props.className - Additional CSS classes
  */
 export default function SolanaTipButton({
-  recipientAddress = "8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ",
+  recipientAddress = "HowieDuhzit.sol",
   network = "mainnet-beta",
   buttonText = "Send SOL Tip",
   className = ""

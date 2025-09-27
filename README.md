@@ -123,6 +123,9 @@
 </div>
 
 <div align="center">
+  <a href="https://www.sns.id/domain/howieduhzit" target="_blank">
+    <img src="https://img.shields.io/badge/-🌐%20howieduhzit.sol-1a1a1a?style=for-the-badge&logo=solana&logoColor=9945FF" alt="Solana Domain" />
+  </a>
   <a href="https://www.linkedin.com/in/howieduhzit" target="_blank">
     <img src="https://img.shields.io/badge/-💼%20LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=FF6B35" alt="LinkedIn" />
   </a>
@@ -151,11 +154,12 @@
     <img src="https://img.shields.io/badge/-GitHub%20Sponsors-1a1a1a?style=flat&logo=github&logoColor=FF6B35" alt="GitHub Sponsors" />
   </a>
 
-  <a href="https://solscan.io/account/8kQnN2mEjNcX4xKkHnX2a3b8vR7nJ5g6mN4oP9qR2tU7vW9xY1zA2bC3dE4fG5hI6jK7lM8nO9pQ" target="_blank">
-    <img src="https://img.shields.io/badge/-Solana%20Wallet-1a1a1a?style=flat&logo=solana&logoColor=9945FF" alt="Solana Wallet" />
+  <a href="https://www.sns.id/domain/howieduhzit" target="_blank">
+    <img src="https://img.shields.io/badge/-howieduhzit.sol-1a1a1a?style=flat&logo=solana&logoColor=9945FF" alt="Solana Domain" />
   </a>
 
   <p><em>💡 Support open source development • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
+  <p><strong>🌐 Web3 Identity:</strong> <a href="https://www.sns.id/domain/howieduhzit" target="_blank">howieduhzit.sol</a></p>
 </div>
 
 ---

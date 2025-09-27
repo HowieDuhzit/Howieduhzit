@@ -62,15 +62,18 @@ This document explains all the advanced features and automation implemented in t
 
 **What it does:**
 - Web3-native funding system using Solana blockchain
-- Direct crypto donations via wallet addresses
+- **SNS domain support** (howieduhzit.sol) for user-friendly addresses
+- Direct crypto donations via wallet addresses or domain names
 - React components for easy integration
 - Modern alternative to traditional payment methods
 - Low fees and fast transactions
 
 **Setup:**
-- Add Solana wallet address to `.github/FUNDING.yml`
+- Add Solana wallet address or SNS domain to `.github/FUNDING.yml`
 - Use provided React component in your projects
 - Supports mainnet, testnet, and devnet
+- **SNS Integration:** Use your SNS domain (howieduhzit.sol) for professional, memorable donation addresses
+- Link your GitHub profile to your SNS domain for unified Web3 identity
 
 ### 📈 8. Repository Statistics
 **Files:** `.github/workflows/stats-generator.yml`
@@ -103,6 +106,8 @@ TWITTER_BEARER_TOKEN=your_twitter_bearer_token_here
 - Modify RSS feed URL in `scripts/update_readme.py`
 - Adjust refresh intervals in workflow files
 - Add your actual blog RSS feed URL
+- **SNS Domain Integration:** Update `.github/FUNDING.yml` with your SNS domain (e.g., `solana: howieduhzit.sol`)
+- Add SNS domain links to your README for unified Web3 identity
 
 ## 🎯 Benefits
 
@@ -117,6 +122,13 @@ TWITTER_BEARER_TOKEN=your_twitter_bearer_token_here
 - **Real Analytics** - Track actual engagement and growth
 - **Professional Image** - Shows serious approach to open source
 - **Time Saving** - No manual updates needed
+- **Web3 Identity** - Unified presence across GitHub, Solana, and Web3 ecosystems
+
+### For Supporters:
+- **Easy Crypto Donations** - Simple SNS domain instead of complex wallet addresses
+- **Multiple Payment Options** - Traditional + modern Web3 funding methods
+- **Professional Presentation** - Clean, trustworthy donation interface
+- **Web3 Native Experience** - Modern blockchain-based support system
 
 ## 🚀 Advanced Usage
 
@@ -125,6 +137,17 @@ Update `scripts/update_readme.py` to fetch from your actual blog:
 ```python
 rss_url = "https://yourwebsite.com/rss.xml"
 ```
+
+### SNS Domain Integration
+Enhance your Web3 presence with Solana Name Service:
+
+1. **Register your domain** at [sns.id](https://www.sns.id)
+2. **Add to funding.yml:**
+   ```yaml
+   solana: yourname.sol
+   ```
+3. **Update README links** to use domain instead of raw wallet addresses
+4. **Professional branding** - memorable, trustworthy donation addresses
 
 ### Additional APIs
 The system is extensible - you can add:
