@@ -1,51 +1,11 @@
-# =============================================================================
-# GitHub Sponsors - Has custom GitHub icon in funding section
-# =============================================================================
 github: HowieDuhzit
-
-# =============================================================================
-# Buy Me a Coffee - Has custom coffee cup icon in funding section
-# =============================================================================
 buy_me_a_coffee: howieduhzit
-
-# =============================================================================
-# Solana - Has custom Solana icon in funding section
-# =============================================================================
 solana: HowieDuhzit.sol
-
-# =============================================================================
-# ALL SUPPORTED PLATFORMS WITH CUSTOM ICONS
-# =============================================================================
-# Uncomment and fill in your usernames when you set up these platforms:
-
-# Patreon - Has custom Patreon icon
-# patreon: HowieDuhzit
-
-# Open Collective - Has custom Open Collective icon
-# open_collective: HowieDuhzit
-
-# Ko-fi - Has custom Ko-fi icon
-# ko_fi: HowieDuhzit
-
-# Tidelift - Has custom Tidelift icon
-# tidelift: HowieDuhzit
-
-# Community Bridge - Has custom Community Bridge icon
-# community_bridge: HowieDuhzit
-
-# Liberapay - Has custom Liberapay icon
-# liberapay: HowieDuhzit
-
-# IssueHunt - Has custom IssueHunt icon
-# issuehunt: HowieDuhzit
-
-# Otechie - Has custom Otechie icon
-# otechie: HowieDuhzit
-
-# =============================================================================
-# IMPORTANT NOTES:
-# =============================================================================
-# - Only these platforms get custom icons in GitHub's funding section
-# - Custom URLs in the 'custom' array always show generic link icons
-# - For custom icons, create styled badges in your README instead
-# - Each platform has its own icon and styling in the GitHub UI
+patreon: HowieDuhzit
+open_collective: HowieDuhzit
+ko_fi: HowieDuhzit
+tidelift: HowieDuhzit
+community_bridge: HowieDuhzit
+liberapay: HowieDuhzit
+issuehunt: HowieDuhzit
+otechie: HowieDuhzit
