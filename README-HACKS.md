@@ -57,12 +57,13 @@ This document explains all the advanced features and automation implemented in t
 - Fallback content for reliability
 - External content integration
 
-### 💰 7. Solana Tip Integration
-**Files:** `solana-tip-integration.md`, `solana-tip-component.jsx`
+### 💰 7. Solana Tip Integration & Custom Funding
+**Files:** `solana-tip-integration.md`, `solana-tip-component.jsx`, `custom-badges-generator.py`
 
 **What it does:**
 - Web3-native funding system using Solana blockchain
 - **SNS domain support** (howieduhzit.sol) for user-friendly addresses
+- **Custom funding badges** with specific icons and branding
 - Direct crypto donations via wallet addresses or domain names
 - React components for easy integration
 - Modern alternative to traditional payment methods
@@ -71,9 +72,17 @@ This document explains all the advanced features and automation implemented in t
 **Setup:**
 - Add Solana wallet address or SNS domain to `.github/FUNDING.yml`
 - Use provided React component in your projects
+- **Custom Badges:** Run `python custom-badges-generator.py` to generate badges
 - Supports mainnet, testnet, and devnet
 - **SNS Integration:** Use your SNS domain (howieduhzit.sol) for professional, memorable donation addresses
 - Link your GitHub profile to your SNS domain for unified Web3 identity
+
+**Custom Badge Examples:**
+- Enterprise Consultation (Buy Me a Coffee icon)
+- GitHub Sponsors (GitHub icon)
+- Solana Domain (Solana icon)
+- Warp Terminal Pro (VS Code icon)
+- Custom engineering badges with robot icons
 
 ### 📈 8. Repository Statistics
 **Files:** `.github/workflows/stats-generator.yml`
@@ -148,6 +157,29 @@ Enhance your Web3 presence with Solana Name Service:
    ```
 3. **Update README links** to use domain instead of raw wallet addresses
 4. **Professional branding** - memorable, trustworthy donation addresses
+
+### Advanced Custom Badges
+Create completely custom funding badges with specific icons:
+
+```bash
+# Generate custom badges
+python custom-badges-generator.py
+
+# Example custom badge URL structure:
+# https://img.shields.io/badge/{label}-{message}-{color}?style={style}&logo={logo}&logoColor={logoColor}
+
+# Examples:
+# Enterprise AI Consultation: logo=robot, color=FF6B35
+# 3D Engineering Services: logo=blender, color=FF6B35
+# Web3 Development: logo=bitcoin, color=9945FF
+```
+
+**Badge Customization Options:**
+- **Icons:** Any icon from [simpleicons.org](https://simpleicons.org)
+- **Colors:** Hex codes or named colors
+- **Styles:** flat, for-the-badge, plastic, social
+- **Labels:** Custom text with emojis
+- **Dynamic Content:** Can integrate with your automation workflows
 
 ### Additional APIs
 The system is extensible - you can add:

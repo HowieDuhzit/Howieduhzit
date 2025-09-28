@@ -8,4 +8,8 @@ buy_me_a_coffee: howieduhzit
 solana: HowieDuhzit.sol
 
 # Custom funding links
-custom: ["https://www.buymeacoffee.com/howieduhzit", "https://app.warp.dev/referral/3E9X3D"]
+custom: [
+  "https://www.buymeacoffee.com/howieduhzit",
+  "https://app.warp.dev/referral/3E9X3D",
+  "https://github.com/sponsors/HowieDuhzit?sponsor=1"
+]

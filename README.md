@@ -121,6 +121,14 @@
     <img src="https://img.shields.io/badge/-howieduhzit.sol-1a1a1a?style=flat&logo=solana&logoColor=9945FF" alt="Solana Domain" />
   </a>
 
+  <a href="https://app.warp.dev/referral/3E9X3D" target="_blank">
+    <img src="https://img.shields.io/badge/-Warp%20Terminal%20Pro-1a1a1a?style=flat&logo=visual-studio-code&logoColor=FF6B35" alt="Warp Terminal" />
+  </a>
+
+  <a href="mailto:Contact@HowieDuhzit.Best" target="_blank">
+    <img src="https://img.shields.io/badge/-AI%20Engineering%20Consultation-1a1a1a?style=flat&logo=robot&logoColor=FF6B35" alt="AI Consultation" />
+  </a>
+
   <p><em>💡 Support open source development • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
   <p><strong>🌐 Web3 Identity:</strong> <a href="https://www.sns.id/domain/howieduhzit" target="_blank">howieduhzit.sol</a></p>
 </div>
