@@ -57,32 +57,39 @@ This document explains all the advanced features and automation implemented in t
 - Fallback content for reliability
 - External content integration
 
-### 💰 7. Solana Tip Integration & Custom Funding
+### 💰 7. Solana Tip Integration & Custom Funding Badges
 **Files:** `solana-tip-integration.md`, `solana-tip-component.jsx`, `custom-badges-generator.py`
 
 **What it does:**
 - Web3-native funding system using Solana blockchain
 - **SNS domain support** (howieduhzit.sol) for user-friendly addresses
-- **Custom funding badges** with specific icons and branding
+- **Custom funding badges** with specific icons and branding (for README display)
 - Direct crypto donations via wallet addresses or domain names
 - React components for easy integration
 - Modern alternative to traditional payment methods
 - Low fees and fast transactions
 
+**Important Note:**
+GitHub's `.github/FUNDING.yml` only supports custom icons for specific platforms:
+- ✅ **Built-in icons:** `github`, `buy_me_a_coffee`, `solana`, `patreon`, etc.
+- ❌ **Custom links:** Always show generic link icons in GitHub's funding section
+
+**Solution:** Use custom badges in your README for full icon control!
+
 **Setup:**
-- Add Solana wallet address or SNS domain to `.github/FUNDING.yml`
-- Use provided React component in your projects
-- **Custom Badges:** Run `python custom-badges-generator.py` to generate badges
+- Add supported platforms to `.github/FUNDING.yml` for GitHub's funding section icons
+- Use `custom-badges-generator.py` to create custom badges for your README
+- **Custom Badges:** Run `python custom-badges-generator.py` to generate styled badges
 - Supports mainnet, testnet, and devnet
 - **SNS Integration:** Use your SNS domain (howieduhzit.sol) for professional, memorable donation addresses
 - Link your GitHub profile to your SNS domain for unified Web3 identity
 
 **Custom Badge Examples:**
-- Enterprise Consultation (Buy Me a Coffee icon)
-- GitHub Sponsors (GitHub icon)
-- Solana Domain (Solana icon)
-- Warp Terminal Pro (VS Code icon)
-- Custom engineering badges with robot icons
+- Enterprise Consultation (Buy Me a Coffee icon) - `for-the-badge` style
+- GitHub Sponsors (GitHub icon) - `for-the-badge` style
+- Solana Domain (Solana icon) - `for-the-badge` style
+- Warp Terminal Pro (VS Code icon) - `for-the-badge` style
+- Custom engineering badges with robot icons - `for-the-badge` style
 
 ### 📈 8. Repository Statistics
 **Files:** `.github/workflows/stats-generator.yml`

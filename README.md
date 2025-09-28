@@ -111,22 +111,22 @@
     <img src="https://img.shields.io/badge/-Enterprise%20Consultation-1a1a1a?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FF6B35" alt="Professional Consultation" />
   </a>
 
-  <p><strong>🔗 Multiple Support Options:</strong></p>
+  <p><strong>🎯 Professional Support Options:</strong></p>
 
   <a href="https://github.com/sponsors/HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub%20Sponsors-1a1a1a?style=flat&logo=github&logoColor=FF6B35" alt="GitHub Sponsors" />
+    <img src="https://img.shields.io/badge/-GitHub%20Sponsors-1a1a1a?style=for-the-badge&logo=github&logoColor=FF6B35" alt="GitHub Sponsors" />
   </a>
 
   <a href="https://www.sns.id/domain/howieduhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-howieduhzit.sol-1a1a1a?style=flat&logo=solana&logoColor=9945FF" alt="Solana Domain" />
+    <img src="https://img.shields.io/badge/-howieduhzit.sol-1a1a1a?style=for-the-badge&logo=solana&logoColor=9945FF" alt="Solana Domain" />
   </a>
 
   <a href="https://app.warp.dev/referral/3E9X3D" target="_blank">
-    <img src="https://img.shields.io/badge/-Warp%20Terminal%20Pro-1a1a1a?style=flat&logo=visual-studio-code&logoColor=FF6B35" alt="Warp Terminal" />
+    <img src="https://img.shields.io/badge/-Warp%20Terminal%20Pro-1a1a1a?style=for-the-badge&logo=visual-studio-code&logoColor=FF6B35" alt="Warp Terminal" />
   </a>
 
   <a href="mailto:Contact@HowieDuhzit.Best" target="_blank">
-    <img src="https://img.shields.io/badge/-AI%20Engineering%20Consultation-1a1a1a?style=flat&logo=robot&logoColor=FF6B35" alt="AI Consultation" />
+    <img src="https://img.shields.io/badge/-AI%20Engineering%20Consultation-1a1a1a?style=for-the-badge&logo=robot&logoColor=FF6B35" alt="AI Consultation" />
   </a>
 
   <p><em>💡 Support open source development • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
