@@ -1,234 +1,177 @@
 <div align="center">
 
-# ⚡ HOWIE DUHZIT ⚡
-### *Terminal Engineer • Systems Architect*
+# ⚙️ HOWIE DUHZIT ⚙️
+### *Full-Stack Engineer • Systems Architect*
 
-**$ cat /dev/profile | grep expertise**
+**AI Systems • 3D Pipeline Engineering • Enterprise Architecture**
 
 ---
 
-## 🔌 Terminal Setup
+## 🛠️ Technical Expertise
 
 <div align="center">
 
-### **Core Commands**
-```bash
-# Languages & Technologies
-alias lang="typescript python javascript nodejs react blender linux docker"
+### **Languages & Technologies**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=typescript,python,javascript,nodejs,react,blender,linux,docker" alt="Tech Stack" />
+</p>
 
-# Current Operations
-alias focus="ai_systems 3d_pipeline enterprise_architecture"
-
-# System Status
-uptime && df -h && free -h
-```
-
-### **Terminal Configuration**
+### **Current Focus Areas**
 <div align="center">
-  <img src="https://img.shields.io/badge/-Terminal%20Engineer-00FF41?style=for-the-badge&logo=terminal&logoColor=000000" alt="Terminal Engineer" />
-  <img src="https://img.shields.io/badge/-AI%20Systems%20Operator-39FF14?style=for-the-badge&logo=robot&logoColor=000000" alt="AI Systems" />
-  <img src="https://img.shields.io/badge/-3D%20Pipeline%20Admin-32CD32?style=for-the-badge&logo=blender&logoColor=000000" alt="3D Pipeline" />
-</div>
-
+  <img src="https://img.shields.io/badge/-AI%20Systems%20Architecture-1a1a1a?style=flat&logo=openai&logoColor=FF6B35" alt="AI Systems" />
+  <img src="https://img.shields.io/badge/-3D%20Pipeline%20Engineering-2d2d2d?style=flat&logo=blender&logoColor=FF6B35" alt="3D Engineering" />
+  <img src="https://img.shields.io/badge/-Enterprise%20Architecture-1a1a1a?style=flat&logo=github&logoColor=FF6B35" alt="Architecture" />
 </div>
 
 ---
 
-## 💻 System Status
-
-<div align="center">
-
-### **🔋 Power Status**
-*Enterprise-grade AI systems and industrial 3D pipelines operational*
-
-### **⚡ Active Processes**
-- 🤖 **AI Agent Operations** - Production Eliza deployments (66+ processes)
-- 🏭 **3D Pipeline Management** - Industrial workflow automation (13+ pipelines)
-- ⚙️ **System Architecture** - Enterprise-grade infrastructure (44+ systems)
-- 🌐 **Network Services** - Web3 integration and blockchain ops (3+ nodes)
-
-*Real-time system metrics and deployment statistics updated automatically*
-
-</div>
-
----
-
-## 🚀 Active Deployments
+## 🚀 Featured Projects
 
 <div align="center">
 
 ### 🤖 **[Eliza-Installer](https://github.com/HowieDuhzit/Eliza-Installer)**
-*AI Agent Deployment System*
-```bash
-$ sudo ./install-eliza.sh --production
-⚙️ Production Eliza installation automation
-🏭 Zero-downtime deployment pipeline
-📊 66+ stars, enterprise adoption
-```
+*Enterprise AI Agent Deployment Platform*
+- ⚙️ One-click production Eliza installations
+- 🏭 Zero-downtime deployment automation
+- 📊 66+ stars, enterprise adoption
 
 ### 🏭 **[Duhzit-Wit-Tools](https://github.com/HowieDuhzit/Duhzit-Wit-Tools)**
-*Industrial 3D Pipeline Management*
-```bash
-$ python pipeline_optimizer.py --blender --lora
-⚙️ AI-powered LoRA generation from Blender renders
-🏗️ Production-scale 3D workflow optimization
-📈 13+ stars, industry implementation
-```
+*Industrial 3D Pipeline Engineering Suite*
+- ⚙️ AI-powered LoRA generation from Blender renders
+- 🏗️ Production-scale 3D workflow optimization
+- 📈 13+ stars, industry implementation
 
 ### ⚙️ **[Eliza-Character-Gen](https://github.com/HowieDuhzit/Eliza-Character-Gen)**
-*Advanced AI Character Systems*
-```bash
-$ npm run generate-personality --scalabale
-🤖 Dynamic personality matrix generation
-⚙️ Scalable character architecture
-🚀 44+ stars, 23+ production forks
-```
+*Advanced AI Character Engineering System*
+- 🤖 Dynamic personality matrix generation
+- ⚙️ Scalable character architecture
+- 🚀 44+ stars, 23+ production forks
 
-### 🌐 **[CoolifyMCP](https://github.com/HowieDuhzit/CoolifyMCP)**
-*Cloud Infrastructure Management*
-```bash
-$ docker-compose up -d --scale production
-☁️ Mission-critical platform automation
-⚙️ Production API orchestration
-💼 3+ stars, enterprise tooling
-```
+### 🏗️ **[CoolifyMCP](https://github.com/HowieDuhzit/CoolifyMCP)**
+*Enterprise Cloud Infrastructure Integration*
+- ☁️ Mission-critical platform automation
+- ⚙️ Production API orchestration
+- 💼 3+ stars, enterprise tooling
 
-### ₿ **[Solana Integration](https://github.com/HowieDuhzit/solana-tip-integration)**
-*Web3 Funding Infrastructure*
-```bash
-$ solana program deploy tip_contract.so
-🔗 Solana blockchain integration with SNS domains
-💰 Modern crypto donation infrastructure
-🚀 Web3-native funding solutions
-```
+### ⚡ **[Solana Tip Integration](https://github.com/HowieDuhzit/solana-tip-integration)**
+*Web3 Funding & Crypto Tipping System*
+- 🔗 Solana blockchain integration with SNS domains
+- 💰 Modern crypto donation infrastructure
+- 🚀 Web3-native funding solutions
 
 </div>
 
 <div align="center">
-  <p><strong>📊 200+ GitHub Stars • 40+ Deployments • Production Systems</strong></p>
-  <p><a href="https://github.com/HowieDuhzit?tab=repositories" target="_blank">View All Active Processes</a></p>
+  <p><strong>📊 200+ GitHub Stars • 40+ Repositories • Production Systems</strong></p>
+  <p><a href="https://github.com/HowieDuhzit?tab=repositories" target="_blank">View All Projects</a></p>
 </div>
 
 ---
 
-## 🌐 Network Connections
+## 💼 Professional Network
 
 <div align="center">
   <a href="https://howieduhzit.best" target="_blank">
-    <img src="https://img.shields.io/badge/-🌐%20Mainframe-00FF41?style=for-the-badge&logo=server&logoColor=000000" alt="Mainframe" />
+    <img src="https://img.shields.io/badge/-🌐%20Portfolio-1a1a1a?style=for-the-badge&logo=About.me&logoColor=FF6B35" alt="Portfolio" />
   </a>
   <a href="https://twitter.com/HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-🐦%20Network-00FF41?style=for-the-badge&logo=twitter&logoColor=000000" alt="Network" />
+    <img src="https://img.shields.io/badge/-🐦%20Twitter-1a1a1a?style=for-the-badge&logo=twitter&logoColor=FF6B35" alt="Twitter" />
   </a>
   <a href="mailto:Contact@HowieDuhzit.Best" target="_blank">
-    <img src="https://img.shields.io/badge/-📧%20Contact-00FF41?style=for-the-badge&logo=gmail&logoColor=000000" alt="Contact" />
+    <img src="https://img.shields.io/badge/-📧%20Contact-1a1a1a?style=for-the-badge&logo=gmail&logoColor=FF6B35" alt="Email" />
   </a>
   <a href="https://discord.gg/HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-💬%20Discord-00FF41?style=for-the-badge&logo=discord&logoColor=000000" alt="Discord" />
+    <img src="https://img.shields.io/badge/-💬%20Discord-1a1a1a?style=for-the-badge&logo=discord&logoColor=FF6B35" alt="Discord" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://www.sns.id/domain/howieduhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-🌐%20howieduhzit.sol-00FF41?style=for-the-badge&logo=solana&logoColor=000000" alt="Solana Domain" />
+    <img src="https://img.shields.io/badge/-🌐%20howieduhzit.sol-1a1a1a?style=for-the-badge&logo=solana&logoColor=9945FF" alt="Solana Domain" />
   </a>
   <a href="https://www.linkedin.com/in/howieduhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-💼%20LinkedIn-00FF41?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/-💼%20LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=FF6B35" alt="LinkedIn" />
   </a>
   <a href="https://youtube.com/@HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-📺%20YouTube-00FF41?style=for-the-badge&logo=youtube&logoColor=000000" alt="YouTube" />
+    <img src="https://img.shields.io/badge/-📺%20YouTube-1a1a1a?style=for-the-badge&logo=youtube&logoColor=FF6B35" alt="YouTube" />
   </a>
   <a href="https://twitch.tv/HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-🎮%20Twitch-00FF41?style=for-the-badge&logo=twitch&logoColor=000000" alt="Twitch" />
+    <img src="https://img.shields.io/badge/-🎮%20Twitch-1a1a1a?style=for-the-badge&logo=twitch&logoColor=FF6B35" alt="Twitch" />
   </a>
 </div>
 
 ---
 
-## 💰 System Funding
+## 💼 Professional Support & Funding
 
 <div align="center">
   <p><strong>Enterprise AI/3D Engineering Solutions</strong></p>
 
   <a href="https://www.buymeacoffee.com/howieduhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-Enterprise%20Consultation-00FF41?style=for-the-badge&logo=buy-me-a-coffee&logoColor=000000" alt="Professional Consultation" />
+    <img src="https://img.shields.io/badge/-Enterprise%20Consultation-1a1a1a?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FF6B35" alt="Professional Consultation" />
   </a>
 
-  <p><strong>🔗 System Support Options:</strong></p>
+  <p><strong>🎯 Professional Support Options:</strong></p>
 
   <a href="https://github.com/sponsors/HowieDuhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub%20Sponsors-00FF41?style=flat&logo=github&logoColor=000000" alt="GitHub Sponsors" />
+    <img src="https://img.shields.io/badge/-GitHub%20Sponsors-1a1a1a?style=for-the-badge&logo=github&logoColor=FF6B35" alt="GitHub Sponsors" />
   </a>
 
   <a href="https://www.sns.id/domain/howieduhzit" target="_blank">
-    <img src="https://img.shields.io/badge/-howieduhzit.sol-00FF41?style=flat&logo=solana&logoColor=000000" alt="Solana Domain" />
+    <img src="https://img.shields.io/badge/-howieduhzit.sol-1a1a1a?style=for-the-badge&logo=solana&logoColor=9945FF" alt="Solana Domain" />
   </a>
 
   <a href="https://app.warp.dev/referral/3E9X3D" target="_blank">
-    <img src="https://img.shields.io/badge/-Warp%20Terminal%20Pro-00FF41?style=flat&logo=visual-studio-code&logoColor=000000" alt="Warp Terminal" />
+    <img src="https://img.shields.io/badge/-Warp%20Terminal%20Pro-1a1a1a?style=for-the-badge&logo=visual-studio-code&logoColor=FF6B35" alt="Warp Terminal" />
   </a>
 
   <a href="mailto:Contact@HowieDuhzit.Best" target="_blank">
-    <img src="https://img.shields.io/badge/-AI%20Engineering%20Ops-00FF41?style=flat&logo=robot&logoColor=000000" alt="AI Consultation" />
+    <img src="https://img.shields.io/badge/-AI%20Engineering%20Consultation-1a1a1a?style=for-the-badge&logo=robot&logoColor=FF6B35" alt="AI Consultation" />
   </a>
 
-  <p><em>💡 Support system operations • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
-  <p><strong>🌐 Network Identity:</strong> <a href="https://www.sns.id/domain/howieduhzit" target="_blank">howieduhzit.sol</a></p>
+  <p><em>💡 Support open source development • 🤝 Enterprise consulting • ⚡ Crypto contributions</em></p>
+  <p><strong>🌐 Web3 Identity:</strong> <a href="https://www.sns.id/domain/howieduhzit" target="_blank">howieduhzit.sol</a></p>
 </div>
 
 ---
 
-## 🎯 System Administration
+## 🎯 Professional Focus
 
 <div align="center">
 
-### **⚙️ Command Center**
-*Senior Terminal Engineer managing production systems at scale*
-
-### **🏗️ Active Operations**
-- ⚙️ **AI Systems Administration** - Production Eliza deployments driving business value
-- 🏭 **Industrial Operations** - Mission-critical 3D pipeline automation
-- 🚀 **Infrastructure Management** - Scalable system architectures and API platforms
-- 💼 **Network Leadership** - Open source initiatives with 200+ stars and production adoption
-
-### **🎯 Mission Objectives**
-- Scale AI agent ecosystem to enterprise deployment
-- Deploy industrial 3D automation across production environments
-- Architect next-generation cloud infrastructure platforms
-- Lead technical teams in mission-critical system delivery
+### **Current Initiatives**
+- **AI Agent Deployment** - Scaling Eliza ecosystem to production environments
+- **3D Pipeline Automation** - Industrial workflow optimization across enterprises
+- **Cloud Infrastructure** - Next-generation platform architecture and API design
+- **Open Source Leadership** - Contributing to projects with measurable business impact
 
 </div>
 
 ---
 
-## 📝 System Logs
+## 📝 Latest Blog Posts
 
 <div align="center">
-### [AI Agent Deployment Protocols](https://howieduhzit.best/blog/ai-agents-eliza)
+### [Building AI Agents with Eliza Framework](https://howieduhzit.best/blog/ai-agents-eliza)
 *Published: 2024-12-15*
 
-### [3D Pipeline Automation Scripts](https://howieduhzit.best/blog/blender-automation)
+### [3D Workflow Automation with Blender](https://howieduhzit.best/blog/blender-automation)
 *Published: 2024-12-10*
 
-### [Open Source System Architecture](https://howieduhzit.best/blog/open-source-impact)
+### [Open Source Contributions That Matter](https://howieduhzit.best/blog/open-source-impact)
 *Published: 2024-12-05*
 
 </div>
 
-*📊 System monitoring and performance optimization protocols*
+*💡 Sharing insights on 3D modeling, game development, and tech innovations*
 
 ---
 
-## 💾 Memory Core
+## 🧠 Engineering Philosophy
 
 <div align="center">
 
-### **Terminal Philosophy:**
-- ⚙️ Engineer AI systems that scale to enterprise demands
-- 🏭 Build industrial 3D pipelines that optimize production workflows
-- 💻 Architect systems that handle millions of operations flawlessly
-- 🚀 Lead open source projects with measurable business impact
-- 🧠 Solve complex technical challenges with elegant, robust solutions
+**Build systems that scale. Deploy solutions that matter. Lead teams that deliver.**
 
 </div>
 
@@ -240,20 +183,16 @@ $ solana program deploy tip_contract.so
 </div>
 
 <div align="center">
-  <p><strong>💻 Terminal Engineer | Systems Architect | 200+ GitHub Stars</strong></p>
-  <p><em>Production systems deployed • Open source leadership</em></p>
+  <p>
+    <img src="https://img.shields.io/badge/Total_Stars-200+-blue?style=flat&logo=github" alt="Total Stars" />
+    <img src="https://img.shields.io/badge/Public_Repos-40+-green?style=flat&logo=github" alt="Public Repos" />
+    <img src="https://img.shields.io/badge/Total_Forks-50+-orange?style=flat&logo=github" alt="Total Forks" />
+  </p>
 </div>
 
----
-
 <div align="center">
-  <p><strong>Terminal Operations by Howie Duhzit</strong></p>
-  <p>Senior Terminal Engineer • AI Systems Architect</p>
-  <p>
-    <a href="https://app.warp.dev/referral/3E9X3D" target="_blank">
-      ⚙️ Professional Terminal Environment
-    </a>
-  </p>
+  <p><strong>💼 Enterprise AI & 3D Engineering Solutions</strong></p>
+  <p><em>Full-Stack Engineer • Systems Architect • 200+ GitHub Stars</em></p>
 </div>
 
 </div>

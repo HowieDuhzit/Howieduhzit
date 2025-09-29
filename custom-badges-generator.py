@@ -6,7 +6,6 @@ Creates custom funding badges with specific icons and styling
 
 import urllib.parse
 import json
-from pathlib import Path
 
 def create_shields_badge(label, message, color, logo=None, logo_color=None, style="flat"):
     """
@@ -32,102 +31,71 @@ def create_shields_badge(label, message, color, logo=None, logo_color=None, styl
     query_string = "&".join(params)
     return f"{base_url}?{query_string}"
 
-def load_theme_config(theme_name="default"):
-    """Load theme configuration"""
-    try:
-        theme_file = Path(f"themes/{theme_name}-theme.json")
-        if theme_file.exists():
-            with open(theme_file, 'r') as f:
-                return json.load(f)
-    except Exception as e:
-        print(f"⚠️ Could not load theme '{theme_name}': {e}")
-
-    # Default theme
-    return {
-        "colors": {
-            "primary": "#FF6B35",
-            "secondary": "#9945FF",
-            "accent": "#00FF41"
-        },
-        "badges": {
-            "style": "for-the-badge",
-            "color": "1a1a1a"
-        }
-    }
-
-def create_funding_badges(theme="default"):
-    """Generate all funding badges for the profile with theme support"""
-
-    theme_config = load_theme_config(theme)
-    colors = theme_config.get("colors", {})
-    badge_style = theme_config.get("badges", {}).get("style", "for-the-badge")
-    badge_color = theme_config.get("badges", {}).get("color", "1a1a1a")
+def create_funding_badges():
+    """Generate all funding badges for the profile"""
 
     badges = {
         "buy_me_a_coffee": {
             "url": "https://www.buymeacoffee.com/howieduhzit",
             "label": "Enterprise Consultation",
-            "color": badge_color,
+            "color": "1a1a1a",
             "logo": "buy-me-a-coffee",
-            "logo_color": colors.get("primary", "FF6B35"),
-            "style": badge_style
+            "logo_color": "FF6B35"
         },
         "github_sponsors": {
             "url": "https://github.com/sponsors/HowieDuhzit",
             "label": "GitHub Sponsors",
-            "color": badge_color,
+            "color": "1a1a1a",
             "logo": "github",
-            "logo_color": colors.get("primary", "FF6B35"),
-            "style": badge_style
+            "logo_color": "FF6B35"
         },
         "solana_domain": {
             "url": "https://www.sns.id/domain/howieduhzit",
             "label": "howieduhzit.sol",
-            "color": badge_color,
+            "color": "1a1a1a",
             "logo": "solana",
-            "logo_color": colors.get("secondary", "9945FF"),
-            "style": badge_style
+            "logo_color": "9945FF"
         },
         "warp_terminal": {
             "url": "https://app.warp.dev/referral/3E9X3D",
             "label": "Warp Terminal Pro",
-            "color": badge_color,
+            "color": "1a1a1a",
             "logo": "visual-studio-code",
-            "logo_color": colors.get("primary", "FF6B35"),
-            "style": badge_style
+            "logo_color": "FF6B35"
         },
-        "ai_consultation": {
-            "url": "mailto:Contact@HowieDuhzit.Best",
-            "label": "AI Engineering Consultation",
-            "color": badge_color,
-            "logo": "robot",
-            "logo_color": colors.get("primary", "FF6B35"),
-            "style": badge_style
+        "crypto_donations": {
+            "url": "https://solscan.io/account/HowieDuhzit.sol",
+            "label": "SOL Donations",
+            "color": "9945FF",
+            "logo": "solana",
+            "logo_color": "ffffff"
         }
     }
 
-    # Terminal theme specific badges
-    if theme == "terminal":
-        badges.update({
-            "mainframe": {
-                "url": "https://howieduhzit.best",
-                "label": "Mainframe",
-                "color": "00FF41",
-                "logo": "server",
-                "logo_color": "000000",
-                "style": badge_style
-            },
-            "network": {
-                "url": "https://twitter.com/HowieDuhzit",
-                "label": "Network",
-                "color": "00FF41",
-                "logo": "twitter",
-                "logo_color": "000000",
-                "style": badge_style
-            }
-        })
+    print("🎨 Custom Funding Badges Generator")
+    print("=" * 50)
 
-    return badges
+    for name, config in badges.items():
+        badge_url = create_shields_badge(
+            label=config["label"],
+            message=None,  # We're using label only for button style
+            color=config["color"],
+            logo=config["logo"],
+            logo_color=config["logo_color"],
+            style="for-the-badge"
+        )
+
+        print(f"\n📌 {name.upper()}:")
+        print(f"URL: {config['url']}")
+        print(f"Badge: <img src=\"{badge_url}\" alt=\"{config['label']}\" />")
+        print(f"Markdown: [![{config['label']}]({config['url']})]({config['url']})")
+
+    print("\n" + "=" * 50)
+    print("💡 Usage Tips:")
+    print("• Use 'for-the-badge' style for buttons")
+    print("• Use 'flat' style for smaller badges")
+    print("• Customize colors with hex codes")
+    print("• Use any logo from simpleicons.org")
 
 def create_custom_badge_example():
     """Example of creating a completely custom badge"""
@@ -147,26 +115,5 @@ def create_custom_badge_example():
     print(f"Usage: <img src=\"{custom_badge}\" alt=\"AI Engineering Consultation\" />")
 
 if __name__ == "__main__":
-    import sys
-
-    # Support theme-based badge generation
-    theme = sys.argv[1] if len(sys.argv) > 1 else "default"
-    print(f"🎨 Generating badges for '{theme}' theme...")
-    badges = create_funding_badges(theme)
-
-    for name, config in badges.items():
-        badge_url = create_shields_badge(
-            label=config["label"],
-            message=None,
-            color=config["color"],
-            logo=config["logo"],
-            logo_color=config["logo_color"],
-            style=config["style"]
-        )
-
-        print(f"\n📌 {name.upper()}:")
-        print(f"URL: {config['url']}")
-        print(f"Badge: <img src=\"{badge_url}\" alt=\"{config['label']}\" />")
-        print(f"Markdown: [![{config['label']}]({config['url']})]({config['url']})")
-
+    create_funding_badges()
     create_custom_badge_example()
