@@ -1,0 +1,32 @@
+{
+  "name": "Terminal Theme",
+  "description": "Dark terminal-inspired theme with green monochrome aesthetic",
+  "colors": {
+    "primary": "#00FF41",
+    "secondary": "#39FF14",
+    "accent": "#32CD32",
+    "background": "#0a0a0a",
+    "surface": "#1a1a1a",
+    "text": "#00FF41",
+    "textSecondary": "#39FF14",
+    "border": "#00FF41"
+  },
+  "badges": {
+    "style": "flat",
+    "color": "00FF41",
+    "logoColor": "000000"
+  },
+  "icons": {
+    "terminal": "terminal",
+    "code": "code",
+    "server": "server",
+    "database": "database",
+    "gear": "cog",
+    "rocket": "rocket"
+  },
+  "typography": {
+    "font": "JetBrains Mono, Fira Code, monospace",
+    "headingSize": "2.5rem",
+    "subheadingSize": "1.5rem"
+  }
+}
