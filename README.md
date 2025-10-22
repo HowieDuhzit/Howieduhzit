@@ -1,9 +1,9 @@
 <div align="center">
 
 # ⚙️ HOWIE DUHZIT ⚙️
-### *Full-Stack Engineer • Systems Architect*
+### *General Avatar Surgeon*
 
-**AI Systems • 3D Pipeline Engineering • Enterprise Architecture**
+**AI Systems • 3D Pipeline Engineering • Pirate Architecture**
 
 ---
 
