@@ -167,11 +167,11 @@
 
 ---
 
-## 🧠 Engineering Philosophy
+## 🧠 Philosophy
 
 <div align="center">
 
-**Build systems that scale. Deploy solutions that matter. Lead teams that deliver.**
+**Until you’ve broken and fixed it, you don’t actually own it**
 
 </div>
 
