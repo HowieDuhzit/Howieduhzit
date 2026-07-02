@@ -11,49 +11,47 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      actions: read
 
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-
     - name: Generate Stats JSON
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        # Get repository statistics
-        echo "Generating repository statistics..."
+        # Fetch repo data once
+        REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/users/HowieDuhzit/repos?per_page=100&sort=updated&direction=desc")
 
-        # Get total stars, forks, repos count
-        STARS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .stargazers_count] | add // 0')
-        FORKS=$(curl -s "https://api.github.com/users/HowieDuhzit/repos?per_page=100" | jq '[.[] | select(.fork == false) | .forks_count] | add // 0')
-        REPOS=$(curl -s "https://api.github.com/users/HowieDuhzit" | jq '.public_repos // 0')
+        # Compute stats from actual data
+        STARS=$(echo "$REPOS" | jq '[.[] | select(.fork == false) | .stargazers_count] | add // 0')
+        FORKS=$(echo "$REPOS" | jq '[.[] | select(.fork == false) | .forks_count] | add // 0')
+        REPOS_COUNT=$(echo "$REPOS" | jq '[.[] | select(.fork == false)] | length')
 
-        # Create stats JSON file
+        # Extract top languages (count occurrences, sort by frequency)
+        TOP_LANGS=$(echo "$REPOS" | jq -r '[.[] | select(.fork == false and .language != null) | .language] | group_by(.) | sort_by(-length) | .[0:5] | map(.[0])')
+
+        # Get most recently updated repos (non-fork)
+        RECENT=$(echo "$REPOS" | jq -r '[.[] | select(.fork == false)] | .[0:5] | map(.name)')
+
+        # Build JSON
         cat > stats.json << EOF
         {
           "total_stars": $STARS,
           "total_forks": $FORKS,
-          "total_repos": $REPOS,
+          "total_repos": $REPOS_COUNT,
           "last_updated": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-          "top_languages": ["TypeScript", "Python", "JavaScript", "HTML", "CSS"],
-          "recent_projects": [
-            "Eliza-Installer",
-            "Duhzit-Wit-Tools",
-            "Eliza-Character-Gen",
-            "CoolifyMCP",
-            "Hyperfy-Tools"
-          ]
+          "top_languages": $TOP_LANGS,
+          "recent_projects": $RECENT
         }
         EOF
 
-        echo "Generated stats.json with:"
+        echo "Generated stats.json:"
         echo "  Stars: $STARS"
         echo "  Forks: $FORKS"
-        echo "  Repos: $REPOS"
+        echo "  Repos: $REPOS_COUNT"
+        echo "  Languages: $TOP_LANGS"
+        echo "  Recent: $RECENT"
 
     - name: Upload Stats
       uses: actions/upload-artifact@v4
@@ -70,7 +68,6 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to stats.json"
         else
-          git commit -m "📊 Update repository statistics"
+          git commit -m "Update repository statistics"
           git push
-          echo "Committed updated statistics"
         fi
