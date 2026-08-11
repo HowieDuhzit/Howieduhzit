@@ -1,8 +1,8 @@
 {
-  "total_stars": 153,
+  "total_stars": 154,
   "total_forks": 56,
   "total_repos": 39,
-  "last_updated": "2026-08-10T02:06:19Z",
+  "last_updated": "2026-08-11T02:01:23Z",
   "top_languages": [
   "JavaScript",
   "Python",
@@ -11,10 +11,10 @@
   "Shell"
 ],
   "recent_projects": [
+  "open-gif-studio",
   "Howieduhzit",
   "LandingCade",
   "SchizoChatter",
-  "tui-board",
-  "bubblefetch"
+  "tui-board"
 ]
 }
