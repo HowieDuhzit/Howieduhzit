@@ -1,20 +1,20 @@
 {
   "total_stars": 154,
   "total_forks": 56,
-  "total_repos": 39,
-  "last_updated": "2026-08-25T01:27:20Z",
+  "total_repos": 41,
+  "last_updated": "2026-08-26T01:37:21Z",
   "top_languages": [
   "JavaScript",
   "Python",
   "HTML",
   "TypeScript",
-  "Shell"
+  "Go"
 ],
   "recent_projects": [
+  "hello-howie",
+  "blitter",
   "Howieduhzit",
   "open-gif-studio",
-  "LandingCade",
-  "SchizoChatter",
-  "tui-board"
+  "LandingCade"
 ]
 }
