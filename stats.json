@@ -1,8 +1,8 @@
 {
   "total_stars": 154,
   "total_forks": 55,
-  "total_repos": 41,
-  "last_updated": "2026-08-30T04:39:32Z",
+  "total_repos": 42,
+  "last_updated": "2026-08-31T04:43:11Z",
   "top_languages": [
   "JavaScript",
   "Python",
@@ -11,10 +11,10 @@
   "Go"
 ],
   "recent_projects": [
-  "blitter",
+  "B64ONE",
   "Howieduhzit",
+  "blitter",
   "hello-howie",
-  "open-gif-studio",
-  "LandingCade"
+  "open-gif-studio"
 ]
 }
