@@ -1,8 +1,8 @@
 {
   "total_stars": 154,
   "total_forks": 54,
-  "total_repos": 43,
-  "last_updated": "2026-10-24T03:58:16Z",
+  "total_repos": 44,
+  "last_updated": "2026-10-25T03:58:08Z",
   "top_languages": [
   "JavaScript",
   "Python",
@@ -11,10 +11,10 @@
   "Go"
 ],
   "recent_projects": [
+  "HeySavi",
   "Howieduhzit",
   "OmaFlip",
   "B64ONE",
-  "blitter",
-  "hello-howie"
+  "blitter"
 ]
 }
